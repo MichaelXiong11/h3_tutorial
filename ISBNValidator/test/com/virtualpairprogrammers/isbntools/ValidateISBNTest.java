@@ -34,7 +34,9 @@ class ValidateISBNTest {
 	
 	@Test
 	public void ISBNhasThirteenNumbers() {
-		fail();
+		ValidateISBN validator = new ValidateISBN();
+		boolean result = validator.checkISBN("9781853260087");
+		assertTrue(result);
 	}
 	
 	
