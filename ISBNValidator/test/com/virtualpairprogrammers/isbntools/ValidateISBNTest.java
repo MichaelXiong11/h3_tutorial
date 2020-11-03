@@ -32,6 +32,11 @@ class ValidateISBNTest {
 		assertFalse(result);
 	}
 	
+	@Test
+	public void ISBNhasThirteenNumbers() {
+		fail();
+	}
+	
 	
 	/*@Test (expected = NumberFormatException.class)
 	public void nineDigitISBNsAreNotAllowed() {
