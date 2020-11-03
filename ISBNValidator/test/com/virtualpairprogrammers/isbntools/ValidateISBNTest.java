@@ -37,6 +37,9 @@ class ValidateISBNTest {
 		ValidateISBN validator = new ValidateISBN();
 		boolean result = validator.checkISBN("9781853260087");
 		assertTrue(result);
+		result = validator.checkISBN("9781853267338");
+		assertTrue(result);
+		
 	}
 	
 	
